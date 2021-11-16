@@ -12,6 +12,7 @@ In this example, I created a Python script to visualize the weather of 500+ citi
 
 3. Cloudiness (%) vs. Latitude
 >This models demonstrates if there is a correlation between Latitude and Cloudiness
+https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/City%20Latitude%20vs.%20Cloudiness.png?raw=true
 
 4. Wind Speed (mph) vs. Latitude
 >This models demonstrates if there is a correlation between Latitude and Wind Speed
