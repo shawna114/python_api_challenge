@@ -70,3 +70,5 @@ In this section, I used jupyter-gmaps and the Google Places API in addition to t
 Once cities with ideal weather were identified. An iteration was used to find the first hotel within 5,000 meters of each city, by passing the latitude and longitude values from the data frame to the Google Places API.
 
 This data was appended to a humidity map with markers to demonstrate the location of cities with ideal weather for vacation, along with the name of a hotel within 5,000 meters of the city.
+
+![Vacation Spots](https://github.com/shawna114/python_api_challenge/blob/main/VacationPy/VacationMap.png?raw=true)
