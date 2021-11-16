@@ -6,16 +6,16 @@ In this example, I created a Python script to visualize the weather of 500+ citi
 
 1. Temperature (F) vs. Latitude
 >This models demonstrates if there is a correlation between Latitude and Max Temperature
-
+![City Latitude Vs. Temperature](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/City%20Latitude%20vs.%20Max%20Temperature.png?raw=true)
 2. Humidity (%) vs. Latitude
 >This models demonstrates if there is a correlation between Latitude and Humidity
-
+![City Latitude Vs. Humidity](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/City%20Latitude%20vs.%20Humidity.png?raw=true)
 3. Cloudiness (%) vs. Latitude
 >This models demonstrates if there is a correlation between Latitude and Cloudiness
 ![City Latitude Vs. Cloudiness](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/City%20Latitude%20vs.%20Cloudiness.png?raw=true)
-
 4. Wind Speed (mph) vs. Latitude
 >This models demonstrates if there is a correlation between Latitude and Wind Speed
+![City Latitude Vs. Wind Speed](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/City%20Latitude%20vs.%20Wind%20Speed.png?raw=true)
 
 _Data for this analysis was pulled by performing a weather check on each city, using a series of successive API calls. 500+ unique cities were included in analysis._
 
@@ -24,26 +24,36 @@ _Data for this analysis was pulled by performing a weather check on each city, u
 - Northern Hemisphere - Temperature (F) vs. Latitude
 >There is a strong, negative linear relationship between latitude and max temperatures in the Northern Hemisphere. In the sample set provided, approximately 77% of the variance in max temperature is explained by latitude. As latitude increases, max temperature decreases.
 
+![NH - Temperature vs. Latitude](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/Northern%20Hemisphere%20-%20Max%20Temp%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 - Southern Hemisphere - Temperature (F) vs. Latitude
 >There is a weak positive linear relationship between latitude and max temperatures in the Southern Hemisphere. In the sample set provided, approximately 38% of the variance in max temperature is explained by latitude. As latitude increases, max temperature increases.
 
+![SH - Temperature vs. Latitude](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/Southern%20Hemisphere%20-%20Max%20Temp%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 - Northern Hemisphere - Humidity (%) vs. Latitude
 >There appears to be a very weak positive relationship between latitude and humidity in the Northern Hemisphere. In the sample set provided, approximately 8% of the variance in humidity is explained by latitude. As latitude increases, max temperature also appears to increase.
 
+![NH - Humidity vs. Latitude](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/Northern%20Hemisphere%20-%20Humidity%20(%25)%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 - Southern Hemisphere - Humidity (%) vs. Latitude
 >There appears to be a very weak positive relationship between latitude and humidity in the Southern Hemisphere. In the sample set provided, approximately 11% of the variance in humidity is explained by latitude. As latitude increases, max temperature also appears to increase.
 
+![SH - Humidity vs. Latitude](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/Southern%20Hemisphere%20-%20Humidity%20(%25)%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 - Northern Hemisphere - Cloudiness (%) vs. Latitude
 >There appears to be a very weak positive relationship between latitude and cloudiness in the Northern Hemisphere on the date data was analyzed. In the sample set provided, approximately 3% of the variance in cloudiness is explained by latitude. As latitude increases, cloudiness also appears to increase.
 
+![NH - Cloudiness vs. Latitude](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/Northern%20Hemisphere%20-%20Cloudiness%20(%25)%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
+
 - Southern Hemisphere - Cloudiness (%) vs. Latitude
 >There appears to be a very weak positive relationship between latitude and cloudiness in the Southern Hemisphere on the date data was analyzed. In the sample set provided, approximately 6% of the variance in cloudiness is explained by latitude. As latitude increases, cloudiness also appears to increase.
-
+>
+![SH - Cloudiness vs. Latitude](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/Southern%20Hemisphere%20-%20Cloudiness%20(%25)%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 - Northern Hemisphere - Wind Speed (mph) vs. Latitude
 >There appears to be a very weak positive relationship between latitude and wind speed in the Northern Hemisphere on the date data was analyzed. In the sample set provided, approximately 4% of the variance in wind speed is explained by latitude. As latitude increases, wind speed also appears to increase.
 
+![NH - Wind Speed vs. Latitude](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/Northern%20Hemisphere%20-%20Wind%20Speed%20(mph)%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 - Southern Hemisphere - Wind Speed (mph) vs. Latitude
 >There appears to be a very weak negative relationship between latitude and wind speed in the Southern Hemisphere on the date data was analyzed. In the sample set provided, approximately 7% of the variance in wind speed is explained by latitude. As latitude increases, wind speed appears to decrease.
+
+![SH - Wind Speed vs. Latitude](https://github.com/shawna114/python_api_challenge/blob/main/WeatherPy/Southern%20Hemisphere%20-%20Wind%20Speed%20(mph)%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 
 On the date data was analyzed, the strongest relationships were observed between latitude and max temps. The strongest relationship between latitude and max temp was observed in the Northern Hemisphere.
 
