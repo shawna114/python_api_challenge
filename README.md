@@ -18,7 +18,7 @@ In this example, I created a Python script to visualize the weather of 500+ citi
 
 _Data for this analysis was pulled by performing a weather check on each city, using a series of successive API calls. 500+ unique cities were included in analysis._
 
-### The linear regressions models shown below were run for each relationship. The plots were separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+### Linear regressions models were run for each relationship. The plots were separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 - Northern Hemisphere - Temperature (F) vs. Latitude
 >There is a strong, negative linear relationship between latitude and max temperatures in the Northern Hemisphere. In the sample set provided, approximately 77% of the variance in max temperature is explained by latitude. As latitude increases, max temperature decreases.
